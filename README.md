@@ -82,7 +82,7 @@ Entirely different server configurations can be created by modifying the files i
 1. Start the Vagrant environment with `vagrant up --provision`
     * Be patient as the magic happens. This could take a while on the first run as your local machine downloads the required files.
     * Watch as the script ends, as an administrator or `su` ***password may be required*** to properly modify the hosts file on your local machine.
-    * Add `vagrant-local/config/nginx-config/sites/ssl/mtod.ten.dev.cert` following [these instructions](https://github.com/Varying-Vagrant-Vagrants/VVV/wiki/Site-specific-self-signed-SSL-certificates#step-3-accept-the-certificate-on-your-host-machine)
+    * Add `vagrant-local/config/nginx-config/sites/ssl/mtod.ten.dev.cert` by following [these instructions](https://github.com/Varying-Vagrant-Vagrants/VVV/wiki/Site-specific-self-signed-SSL-certificates#step-3-accept-the-certificate-on-your-host-machine)
 1. Visit any of the following default sites in your browser:
     * [http://local.wordpress.dev/](http://local.wordpress.dev/) for WordPress stable
     * [http://local.wordpress-trunk.dev/](http://local.wordpress-trunk.dev/) for WordPress trunk
