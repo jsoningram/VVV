@@ -77,8 +77,7 @@ Entirely different server configurations can be created by modifying the files i
         * Note: This step is not a requirement. When installed, it keeps the [VirtualBox Guest Additions](https://www.virtualbox.org/manual/ch04.html) kernel modules of your guest synchronized with the version of your host whenever you do `vagrant up`. This can prevent some subtle shared folder errors.
 1. Clone or extract the Varying Vagrant Vagrants project into a local directory
     * `git clone git@github.com:jsoningram/VVV.git vagrant-local`
-    * OR download and extract the repository `develop` branch [zip file](https://github.com/varying-vagrant-vagrants/vvv/archive/develop.zip) to a `vagrant-local` directory on your computer.
-    * OR download and extract a [stable release](https://github.com/varying-vagrant-vagrants/vvv/releases) zip file if you'd like some extra comfort.
+    * OR download and extract the repository `develop` branch [zip file](https://github.com/jsoningram/VVV/archive/develop.zip) to a `vagrant-local` directory on your computer.
 1. In a command prompt, change into the new directory with `cd vagrant-local`
 1. Start the Vagrant environment with `vagrant up --provision`
     * Be patient as the magic happens. This could take a while on the first run as your local machine downloads the required files.
