@@ -4,7 +4,7 @@ Varying Vagrant Vagrants is an open source [Vagrant](https://www.vagrantup.com) 
 
 VVV is a [10up](http://10up.com) creation and [transitioned](http://10up.com/blog/varying-vagrant-vagrants-future/) to a community organization in 2014.
 
-***This fork has been modified to provide a reproducible environment for MTOD development.***
+**This fork has been modified to provide a reproducible environment for MTOD development.**
 
 * **Version**: 1.3.x-working
 * **Latest Stable**: [1.3.0](https://github.com/varying-vagrant-vagrants/vvv/tree/1.3.0)
