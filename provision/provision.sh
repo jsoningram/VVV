@@ -99,7 +99,7 @@ apt_package_check_list=(
 install_wordpress() {
 	# Install the latest version of WordPress
 	echo "Installing latest version of WordPress into www/ten/wordpress"
-	wget https://wordpress.org/latest.tar.gz -O /srv/www/ten/latest.tar.gz
+	wget https://wordpress.org/wordpress-4.2.4.tar.gz  -O /srv/www/ten/latest.tar.gz
 	tar -xzvf /srv/www/ten/latest.tar.gz -C /srv/www/ten
 	rm /srv/www/ten/latest.tar.gz
 }
