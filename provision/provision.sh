@@ -96,6 +96,14 @@ apt_package_check_list=(
 
 ### FUNCTIONS
 
+install_wordpress() {
+	# Install the latest version of WordPress
+	echo "Installing latest version of WordPress into www/ten/wordpress"
+	wget https://wordpress.org/latest.tar.gz -O /srv/www/ten/latest.tar.gz
+	tar -xzvf /srv/www/ten/latest.tar.gz -C /srv/www/ten
+	rm /srv/www/ten/latest.tar.gz
+}
+
 network_detection() {
   # Network Detection
   #
@@ -859,6 +867,7 @@ custom_vvv(){
 #set -xv
 
 network_check
+install_wordpress
 # Profile_setup
 echo "Bash profile setup and directories."
 profile_setup
